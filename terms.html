@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #d9f2ee;
+        }
+
+        h1, h2 {
+            color: #333;
+            background-color: yellowgreen;
+            display: inline;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1><marquee>Terms and Conditions</marquee></h1>
+
+    <p>Welcome to our blogging platform for tourists and enthusiasts. Before you start using our platform, please read and accept the following terms:</p>
+
+    <h2>1. Eligibility</h2>
+    <ul>
+        <li>You must be at least 18 years old to use this platform.</li>
+        <li>By using the platform, you confirm that you meet this age requirement.</li>
+    </ul>
+
+    <h2>2. Content Submission</h2>
+    <ul>
+        <li>You are solely responsible for the content you submit, ensuring it complies with all applicable laws and regulations.</li>
+        <li>Expert Vagabond reserves the right to remove any content that violates these terms without notice.</li>
+    </ul>
+
+    <h2>3. Intellectual Property</h2>
+    <ul>
+        <li>You retain ownership of the content you submit to Expert Vagabond .</li>
+        <li>By submitting content, you grant Expert Vagabond a non-exclusive license to use, display, and distribute the content on the platform.</li>
+    </ul>
+
+    <h2>4. Code of Conduct</h2>
+    <ul>
+        <li>Users agree to use Expert Vagabond  in a manner consistent with all applicable laws and regulations.</li>
+        <li>Users will not engage in any behavior that could be considered harassment, defamation, or violation of privacy rights.</li>
+    </ul>
+
+    <!-- Add more sections as needed -->
+    <input type="checkbox" id="acceptCheckbox"> I have read and accept the terms and conditions.
+</p>
+
+<button id="submitButton" onclick="submitForm()">Submit</button>
+
+<script>
+    function submitForm() {
+        if (document.getElementById('acceptCheckbox').checked) {
+            alert('Thank you for accepting the terms and conditions. You can now proceed to use our platform.');
+            // You may want to redirect the user to the main page or perform other actions here.
+        } else {
+            alert('Please accept the terms and conditions before proceeding.');
+        }
+    }
+</script>
+
+</body>
+</html>
